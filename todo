@@ -1,0 +1,59 @@
+## Matriz y dibujo de lineas:
+
+(✓) Sacar linea pintada de verde por default
+(✓) Pintar los casilleros de color verde
+(✓) Que el segundo click sea subyacente (arriba - abajo - izquierda - derecha)
+(✓) Que el tercer click sea en la misma dirección que el segundo
+(✓) Que el cuarto click sea en la misma direeción que el tercero
+
+## Botones:
+
+Básico de los botones:
+(✓) Crear boton para izquierda
+(✓) Crear boton para derecha
+(✓) Crear boton para borrar
+(✓) Colocarle sus respectivos iconos a los botones
+
+Funcionabilidad de los botones:
+(✓) Que haga una rotación anti-horaria las 4 casillas de la matriz.
+(✓) Que haga una rotación horaria las 4 casillas de la matriz.
+(✓) Que borre el ultimo casillero dibujado.
+
+## Fundamental:
+
+(✓) Agregar la logica en un archivo tsx aparte con buenas practicas.
+
+## Extra:
+
+(✓) Agregar alert o mensaje de warning a la hora de rotar y superar los limites de la matriz
+(✓) Responsive designed
+(✓) Los botones deberian estar habilitados o deshabilitados dependiendo de si la linea esta completa o de si hay algo para borrar
+(✓) Pintar las celdas de colores con cierto degrade, puede ser con opacidad
+(✓) Limitar cliclear afuera u en otro casillero que no continue con una linea
+(✓) Resaltar las posiciones posibles para clickear
+(✓) Usar Types para definir los parametros de las funciones de React (Pure Function Components)
+
+## Pendientes:
+
+(X) Trabajar los componentes en Storybook
+
+## Observaciones:
+
+En este desafío, se presentó la tarea de crear una aplicación que permita a los usuarios dibujar líneas de 4 casilleros en una matriz, siguiendo ciertas reglas de selección y dirección.
+Además, se pidió implementar funcionalidades adicionales, como la rotación de líneas y la eliminación del último casillero dibujado, así como mejoras estéticas y de usabilidad.
+
+En respuesta a estas consignas, se desarrolló una solución que aborda eficazmente los requisitos.
+La UI se compone de una matriz de casilleros que pueden ser seleccionados para dibujar una línea.
+Los botones de rotación y eliminación facilitan la manipulación de las líneas.
+Además, la interfaz se diseñó con sensibilidad a la usabilidad, considerando la habilitación o deshabilitación de botones según la situación actual
+y aplicando colores y degradados para mejorar la experiencia visual.
+
+En cuanto a las funcionalidades adicionales, se logró implementar la rotación de líneas y la eliminación del último casillero dibujado de manera efectiva.
+Se aseguró que los botones fueran habilitados o deshabilitados según el contexto, lo que proporciona una experiencia de usuario más intuitiva.
+
+En cuanto a la utilización de Storybook, una herramienta poderosa para el desarrollo de componentes visuales reutilizables, no la incluí en esta implementación.
+Sin embargo, reconozco su importancia en la creación de una biblioteca de componentes independientes y documentados, lo que podría aumentar la eficiencia en el desarrollo y la colaboración en futuros proyectos. Aunque no la utilicé en esta ocasión, mi compromiso es aprender y aplicar Storybook en el futuro, aprovechando su capacidad para crear y visualizar componentes de manera aislada y eficiente.
+
+El desafío planteado sin duda fue una oportunidad valiosa para poner a prueba mis habilidades y conocimientos en este primer acercamiento.
+A lo largo del proceso, pude demostrar mi capacidad para abordar problemáticas complejas y desarrollar soluciones efectivas.
+Aunque este desafío representó un punto de partida, estoy ansioso por continuar avanzando y superando las etapas futuras con un desempeño aún más destacado.
