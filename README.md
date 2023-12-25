@@ -25,12 +25,11 @@ El tercer y cuarto click estan obligados a continuar la direccion definida
 * Limite para cliclear afuera u en otro casillero que no continue con una linea.
 * Queda resaltado las posiciones posibles para clickear.
 
-#### Antes de empezar
+#### Antes de empezar el desafio:
 :warning: **Advertencia:** El ejercicio viene con un proyecto base en React en typescript y un Eslint como linteador para mantener la prolijidad, con bootstrap usando el framework de NextJs. tiene configurado scss (Sass) y viene con Storybook. Los comandos para prender el proyecto estan mas abajo
 
 
 ## --- Proyect Info! ---
-:information_source: **Nota:** 
 
 ## React 18
 The proyect is Updated to use the last version of react with this new updates
