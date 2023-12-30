@@ -17,7 +17,7 @@ El tercer y cuarto click estan obligados a continuar la direccion definida
 * Los botones con flecha hacen la rotación de dicha linea previamente dibujada 90deg para el lado de la flecha. recorriendo la matriz y modificando la posicion de los casilleros marcados
 * El boton con el tacho de basura borra el ultimo casillero dibujado
 
-- Además agregué:
+Además agregué:
 
 * UI responsive.
 * Los botones estan habilitados o deshabilitados dependiendo de si la linea esta completa o de si hay algo para borrar.
